@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--Enlace para responsive-->
+	<meta name = "viewport" content="width=device-width">
+	<!--Enlace para distintos caracteres-->
+	<meta charset="UTF-8">
+	<title>Whatssap Web</title>
+	<!--Enlace google font-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<!--Enlace para la carpeta css-->
+  <link rel="stylesheet" type="text/css" href="asset/css/style.css">
+	<!--Enlace para boostrap-->
+  <link rel="stylesheet" href="asset/css/JavaScript · Bootstrap_files/bootstrap.min.css">
+ 	<!--Enlace para los iconos-->
+  <link rel="stylesheet" type="text/css" href="asset/css/font-awesome-4.7.0">
+</head>
+<body>
+<!-- Encabezado -->
+	<header>
+		<div class="container-fluid container1">
+			<div class="row encabezado">
+				<div class="col-lg-4 col-md-4 primero">
+					<div class="row">
+						<div class="col-lg-1 col-md-1">
+							<img src="asset/img/gian.jpg" class="imagen1">
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-8 col-md-8">
+					<div class="row">
+						<div class="col-lg-1 col-md-1">
+							<img src="asset/img/logocodeacademy.png" class="imagen2">
+						</div>
+						<div class="col-lg-3 col-md-3 letras">
+							<h4><strong>Laboratoria</strong></h4>
+							<p>Ana,María,Aldo,Gian,Mariana,Papu,Tú</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+<!-- Sección -->
+	<section>
+		<div class="container-fluid container2">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 parte1">
+					<div class="input-group">
+            <span class="input-group-addon" id="titulo">Buscar</span>
+            <input id="tituloInput" type="text" class="form-control" aria-describedby="titulo">
+					</div>
+					<div class="row contacto1 contact cont">
+						<div class="col-lg-1 col-md-1">
+							<div class="contacto1 contact cont">
+								<img src="asset/img/logocodeacademy.png" id="uno" class="contactos">
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<h4 class="nombre"><strong>Laboratoria Perú</strong></h4>
+						</div>
+					</div>
+
+					<div class="row contacto cont">
+						<div class="col-lg-1 col-md-1">
+							<div class="contacto2 cont">
+								<img src="asset/img/raymi.jpg" id="dos" class="contactos">
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<h4 class="nombre"><strong>Raymi Saldomando</strong></h4>
+						</div>
+					</div>
+
+					<div class="row contacto cont">
+						<div class="col-lg-1 col-md-1">
+							<img src="asset/img/mariana.jpg" id="tres" class="contactos">
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<h4 class="nombre"><strong>Mariana Costa</strong></h4> 
+						</div>
+					</div>
+
+					<div class="row contacto cont">
+						<div class="col-lg-1 col-md-1">
+							<img src="asset/img/anamaria.jpg" id="cuatro" class="contactos">
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<h4 class="nombre"><strong>Ana María Martínez Franklin</strong></h4>
+						</div>
+					</div>
+
+					<div class="row contacto cont">
+						<div class="col-lg-1 col-md-1">
+							<img src="asset/img/rodulfo.jpg" id="cinco" class="contactos">
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<h4 class="nombre"><strong>Rodulfo Prieto</strong></h4>
+						</div>
+					</div>
+
+					<div class="row contacto cont">
+						<div class="col-lg-1 col-md-1">
+							<img src="asset/img/andrea.jpg" id="seis" class="contactos">
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<h4 class="nombre"><strong>Andrea Lamas</strong></h4>
+						</div>
+					</div>
+
+					<div class="row contacto cont">
+						<div class="col-lg-1 col-md-1">
+							<img src="asset/img/mariapaula.jpg" id="siete" class="contactos">
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<h4 class="nombre"><strong>María palma Rivalora</strong></h4>
+						</div>
+					</div>
+
+					<div class="row contacto cont">
+						<div class="col-lg-1 col-md-1">
+							<img src="asset/img/katy.jpg" id="ocho" class="contactos">
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<h4 class="nombre"><strong>Katy Sanchez</strong></h4>
+						</div>
+					</div>
+
+					<div class="row contacto cont">
+						<div class="col-lg-1 col-md-1">
+							<img src="asset/img/aldo.jpg" id="nueve" class="contactos">
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<h4 class="nombre"><strong>Aldo Alfaro</strong></h4>
+						</div>
+					</div>		
+				</div>
+
+			<!-- Div para chatear-->
+			<div class="col-lg-8 col-md-8 parte2">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 textop">
+						<textarea class="txt" id="new" placeholder="Escribe tu mensaje aquí"></textarea>
+		
+						<button type="button" id="btn" onclick="otherTweet()"><p>Boton</p></button>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+
+
+<!--Scrip de enlaces-->
+
+<!-- Scrip jquery -->
+<script src="asset/js/jquery.min.js.descarga"></script>
+
+<!-- Scrip carpeta js -->
+<script rel="stylesheet" type="text/css" href="asset/js/app.js"></script>
+
+<!-- Scrip boostrap 
+<script src="asset/css/bootstrap.min.js.descarga"></script> -->
+
+	<!-- Scrip para los iconos -->
+<script src="https://use.fontawesome.com/50f497f43c.js"></script>
+</body>
+</html>

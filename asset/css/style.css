@@ -1,0 +1,101 @@
+/* Encabezado */
+body {
+	font-family: roboto;
+}
+
+header {
+	margin: 0;
+	padding: 0;
+	border: 0; 
+}
+
+.encabezado {
+	background: silver;
+	height: 110px;
+	border-bottom: 1px solid #000;
+}
+
+.imagen1 {
+	border-radius: 100px;
+	margin: 5px;
+}
+
+.primero {
+	border-right: 1px solid #000;
+}
+
+.imagen2 {
+	border-radius: 100px;
+	width: 87px;
+	margin: 5px;
+}
+
+.letras {
+	margin: 5px;
+	margin-left: 25px;
+}
+
+/* Sección */
+
+.parte1 {
+	border-right: 1px solid silver;
+	border-left: 1px solid silver;
+}
+
+#titulo {
+	width: 3px;
+}
+
+.input-group {
+	margin:10px;
+}
+
+#tituloInput {
+	width: 300px;
+}
+
+.contactos {
+	border-radius: 100px;
+	width: 87px;
+	margin: 10px;
+}
+
+.contact {
+	border-top: 1px solid silver;
+}
+
+.cont {
+	border-bottom: 1px solid silver;
+}
+
+.parte2 {
+	background-image: url(../img/chat-panel-bg.png);
+	width: 100%;
+}
+
+.nombre {
+	margin-left: 130px;
+}
+
+/* Div para chatear */
+
+#btn {
+	height: 50px;
+	width: 50px;
+}
+
+.parte2 {
+	vertical-align: center;
+}
+
+textarea {
+	width: 90%
+}
+
+.textop {
+	margin-top: 110%;
+}
+
+
+}
+
